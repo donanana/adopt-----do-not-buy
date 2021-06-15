@@ -1,7 +1,7 @@
 import  Layout from '../components/layout/Layout';
 import Banner from '../components/home/Banner';
 import '../styles/Home.module.css'
-import Step from '../components/home/step';
+import Step from '../components/home/Step';
 
 export default function Home({categories}) {
   // console.log('index',categories);
