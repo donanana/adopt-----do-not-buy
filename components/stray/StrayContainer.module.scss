@@ -1,0 +1,52 @@
+.strayPage {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  
+    .card_container {
+        margin-top: 5%;
+      width: 80%;
+      display: grid;
+      grid-template-columns: 1fr 1fr 1fr 1fr;
+      // flex-wrap: wrap;
+      // justify-content: space-between;
+    }
+  }
+  
+  @media (max-width: 666px) {
+    .card_container {
+      width: 90%;
+      display: grid;
+      grid-template-columns: 1fr !important;
+      // flex-wrap: wrap;
+      // justify-content: space-between;
+    }
+  }
+  
+  .paginateButton{
+  padding: 0 0 0 20px;
+  overflow: hidden;
+  width: 100%;
+  height: 40px;
+  list-style: none;
+  display: flex;
+  justify-content: center;
+
+  a {
+    margin-right: 7px;
+    text-decoration: none;
+    display: inline-block;
+    padding: 8px 16px;
+  }
+  
+  a:hover {
+    border-radius: 50%;
+    background-color: #a1b4b6;
+    color: white;
+  }
+}
+.paginateActive a{
+  border-radius: 50%;
+  background-color: #a1b4b6;
+  color: white;
+}
