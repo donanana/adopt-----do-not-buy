@@ -4,7 +4,7 @@ import styles from '@/styles/search.module.css';
 import React from 'react';
 import { useState, useEffect, useContext } from 'react';
 // import Search from '@/components/layout/Search';
-export async function getServerSideProps() {
+export async function getStaticProps() {
   const response = await fetch(
     'https://data.coa.gov.tw/Service/OpenData/TransService.aspx?UnitId=QcbUEzN6E6DL'
   );
@@ -13,6 +13,7 @@ export async function getServerSideProps() {
     props: {
       stray,
     },
+    revalidate:10
   };
 }
 
