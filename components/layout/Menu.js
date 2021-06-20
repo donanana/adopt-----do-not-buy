@@ -17,7 +17,7 @@ export default function Menu() {
           <Link href="/">首頁</Link>
           <Link href="/stray">流浪動物查詢</Link>
           <Link href="/stray/about">關於領養</Link>
-          <Link href="">服務</Link>
+          <Link href="/stray/location">服務據點</Link>
           <Link href="">聯絡</Link>
         </nav>
 

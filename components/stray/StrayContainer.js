@@ -5,6 +5,7 @@ import { useState } from 'react';
 import ReactPaginate from 'react-paginate';
 
 export default function StrayContainer({ strays }) {
+
     // console.log('stray at StrayContainer',strays);
   const[pageNumber,setPageNumber] = useState(0);
   const itemsPerPage = 20;

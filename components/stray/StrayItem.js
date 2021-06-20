@@ -9,6 +9,7 @@ export default function StrayItem({id,animal_subid,album_file,animal_age,animal_
     // const linkUrl = `/shop/${title}`;
     let sex = (animal_sex == 'F' ? '母' : '公');
     // console.log('sex:',sex);
+
     return (
       <div className={styles.card_container}>
       <div className={styles.card}>

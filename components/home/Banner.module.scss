@@ -10,14 +10,13 @@
 
 .banner{
     margin: 0;
-    padding: 15%;
+    padding: 17% 12%;
     width: 100vw;
     height: 100vh;
     overflow: hidden;
     position: relative;
     // display: flex;
     align-items: center;
-    margin: -0.5%;
     // width: 100vw;
     // height: 80vh;
     background: rgb(243, 237, 202);
@@ -54,6 +53,7 @@
 @media (max-width: 666px) {
   .banner {
       height: 35vh !important;
+      padding: 11% 19%;
       h1{
       font-size: 3rem !important;
       padding-left: 0px !important;

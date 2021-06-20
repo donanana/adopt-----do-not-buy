@@ -105,7 +105,21 @@ $body-text-color: $nero;
 	}
 	
 	dd {
+		height: 10%;
 		margin-left: 5vw;
 		margin-bottom: 2vh;
 	}
 }
+
+@media (max-width: 666px) {
+	.dl_blurbs {
+		display: grid;
+		/* LIST */
+
+		dd {
+			height: 17%;
+			margin-left: 5vw;
+			margin-bottom: 2vh;
+		}
+	}
+  }
